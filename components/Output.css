@@ -1,0 +1,14 @@
+.output_container {
+    font-size: 56px; 
+    font-weight: 800; 
+}
+
+.output_result {
+    color: #854dff
+}
+
+@media screen and (min-width: 844px) {
+    .output_container {
+        font-size: 104px; 
+    }
+}

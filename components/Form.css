@@ -1,0 +1,81 @@
+.date {
+    display: flex; 
+    gap: 16px; 
+    margin-bottom: 12px; 
+    max-width: 544px; 
+}
+
+.date_container {
+    display: flex; 
+    flex-direction: column;
+}
+
+.date_input {
+    padding: 12px 16px; 
+    font-size: 20px; 
+    font-weight: 700; 
+    width: 100%; 
+    border-radius: 8px; 
+    border: 1px solid #dcdcdc; 
+}
+
+.date--input-error {
+    border: 1px solid #ff5959; 
+}
+
+.date--text-error {
+    color: #ff5959; 
+}
+
+.date_container input:focus {
+    border: 1px solid #854DFF; 
+    outline: none; 
+}
+
+.date button {
+    display: none; 
+}
+
+.error {
+    color: #ff5959; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+    margin-bottom: 12px; 
+    max-width: 544px; 
+}
+
+.heading {
+    max-width: 544px; 
+}
+
+.heading_title {
+    margin-bottom: 12px; 
+    font-size: 56px; 
+    font-weight: 800;
+    font-family: "Poppins";
+}
+
+.heading_dates {
+    display: flex; 
+    gap: 16px; 
+}
+
+.heading_date {
+    padding: 12px 16px; 
+    font-size: 20px; 
+    font-weight: 700; 
+    width: 100%; 
+    border-radius: 8px; 
+    border: 1px solid #dcdcdc; 
+}
+
+@media screen and (min-width: 844px) {
+    .heading_title {
+        font-size: 104px; 
+    }
+    .heading_date, .date_input {
+        font-size: 32px; 
+    }
+}

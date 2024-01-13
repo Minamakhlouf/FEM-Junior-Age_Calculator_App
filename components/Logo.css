@@ -1,0 +1,45 @@
+.logo {
+    position: relative; 
+    display: flex; 
+    justify-content: center;
+}
+
+.logo_circle {
+    background-color: #854dff;
+    width: 64px; 
+    padding: 20px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative; 
+    z-index: 5; 
+    cursor: pointer; 
+}
+
+.logo_circle:hover {
+    background-color: black;
+}
+
+.logo_circle img {
+    width: 24px; 
+}
+
+.logo_line {
+    height: 1px; 
+    position: absolute; 
+    background-color: #dcdcdc;
+    top: 50%; 
+    left: 0; 
+    width: 100%; 
+    z-index: 3; 
+}
+
+@media screen and (min-width: 844px) {
+    .logo {
+        justify-content: end;
+    }
+    .logo_circle {
+        padding: 26px; 
+    }
+}
